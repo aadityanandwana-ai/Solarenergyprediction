@@ -1,0 +1,29 @@
+model,k,silhouette,davies_bouldin,labels,fitted_model,preprocessor
+KMeans,2,0.7730913593073697,0.8568939900895836,[0 0 0 ... 0 0 0],"KMeans(n_clusters=2, n_init=20, random_state=42)","Pipeline(steps=[('imputer', SimpleImputer(strategy='median')),
+                ('scaler', StandardScaler())])"
+Agglomerative,2,0.7320753653152287,0.9070033291192912,[1 1 1 ... 1 1 1],AgglomerativeClustering(),"Pipeline(steps=[('imputer', SimpleImputer(strategy='median')),
+                ('scaler', StandardScaler())])"
+KMeans,3,0.7724488191031903,0.5754805524160159,[0 0 0 ... 0 0 0],"KMeans(n_clusters=3, n_init=20, random_state=42)","Pipeline(steps=[('imputer', SimpleImputer(strategy='median')),
+                ('scaler', StandardScaler())])"
+Agglomerative,3,0.7329951420320947,0.6097381731972042,[1 1 1 ... 1 1 1],AgglomerativeClustering(n_clusters=3),"Pipeline(steps=[('imputer', SimpleImputer(strategy='median')),
+                ('scaler', StandardScaler())])"
+KMeans,4,0.7701420339368164,0.42915885654911673,[0 0 0 ... 0 0 0],"KMeans(n_clusters=4, n_init=20, random_state=42)","Pipeline(steps=[('imputer', SimpleImputer(strategy='median')),
+                ('scaler', StandardScaler())])"
+Agglomerative,4,0.7319564369858332,0.7201407458333462,[3 3 3 ... 3 3 3],AgglomerativeClustering(n_clusters=4),"Pipeline(steps=[('imputer', SimpleImputer(strategy='median')),
+                ('scaler', StandardScaler())])"
+KMeans,5,0.7231451663642003,0.5971096903927201,[1 1 1 ... 1 1 1],"KMeans(n_clusters=5, n_init=20, random_state=42)","Pipeline(steps=[('imputer', SimpleImputer(strategy='median')),
+                ('scaler', StandardScaler())])"
+Agglomerative,5,0.7324134218011183,0.5142801802629932,[1 1 1 ... 1 1 1],AgglomerativeClustering(n_clusters=5),"Pipeline(steps=[('imputer', SimpleImputer(strategy='median')),
+                ('scaler', StandardScaler())])"
+KMeans,6,0.7049464091196035,0.5811334295691651,[1 1 1 ... 1 1 1],"KMeans(n_clusters=6, n_init=20, random_state=42)","Pipeline(steps=[('imputer', SimpleImputer(strategy='median')),
+                ('scaler', StandardScaler())])"
+Agglomerative,6,0.7432172082197892,0.675860413719071,[1 1 1 ... 1 1 1],AgglomerativeClustering(n_clusters=6),"Pipeline(steps=[('imputer', SimpleImputer(strategy='median')),
+                ('scaler', StandardScaler())])"
+KMeans,7,0.6799693276796517,0.6444477156483014,[0 0 0 ... 4 0 0],"KMeans(n_clusters=7, n_init=20, random_state=42)","Pipeline(steps=[('imputer', SimpleImputer(strategy='median')),
+                ('scaler', StandardScaler())])"
+Agglomerative,7,0.7212321862860127,0.6249970276382887,[1 1 1 ... 1 1 1],AgglomerativeClustering(n_clusters=7),"Pipeline(steps=[('imputer', SimpleImputer(strategy='median')),
+                ('scaler', StandardScaler())])"
+KMeans,8,0.6879964888482958,0.5946935305749067,[0 0 0 ... 4 0 0],"KMeans(n_init=20, random_state=42)","Pipeline(steps=[('imputer', SimpleImputer(strategy='median')),
+                ('scaler', StandardScaler())])"
+Agglomerative,8,0.728218790760605,0.5598252938443657,[0 0 0 ... 0 0 0],AgglomerativeClustering(n_clusters=8),"Pipeline(steps=[('imputer', SimpleImputer(strategy='median')),
+                ('scaler', StandardScaler())])"

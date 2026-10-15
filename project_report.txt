@@ -1,0 +1,23 @@
+SOLAR ENERGY GEOGRAPHICAL CLUSTERING REPORT
+============================================================
+
+1. Objective
+To cluster geographical areas based on solar energy production and support strategic business decision-making.
+
+2. Methodology
+- Data cleaned and aggregated at ZIP code level.
+- Features included total and average energy production, system size, storage size, and project counts.
+- Models compared: KMeans, Agglomerative Clustering, Gaussian Mixture.
+- Best model selected: KMeans with 2 clusters.
+
+3. Cluster Summary
+                 zip_count  total_energy    avg_energy  total_projects
+cluster_name                                                          
+High Production        193    3865539565  2.002870e+07          102178
+Low Production        1535    2393726129  1.559431e+06          115838
+
+4. Recommendations
+- Prioritize high-production ZIP clusters for sales targeting.
+- Use medium-production zones for expansion feasibility studies.
+- Investigate low-production zones before allocating resources, as they may have lower historical output or fewer installations.
+- Combine these cluster results with market, land, and policy data for stronger project planning.
